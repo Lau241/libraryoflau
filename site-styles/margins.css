@@ -1,0 +1,3 @@
+main {
+    margin: 0 clamp(0rem, 10.5% - 4rem, 10.5%);
+}

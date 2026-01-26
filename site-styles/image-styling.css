@@ -1,5 +1,6 @@
 .width-fill {
     width: 100%;
+    max-width: 100%;
     height: auto;
 }
 
@@ -8,21 +9,21 @@
     width: auto;
 }
 
-.flex-6-4 {
+.flex-6-345 {
     display: flex;
     width: 100%;
 }
 
-.flex-6-4-gap {
-    flex: .25;
+.flex-6-345-gap {
+    flex: 1;
 }
 
 .flex-6 {
     flex: 6;
 }
 
-.flex-4 {
-    flex: 4;
+.flex-345 {
+    flex: 3.45;
 }
 
 figure {
