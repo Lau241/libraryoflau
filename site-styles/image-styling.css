@@ -3,6 +3,11 @@
     height: auto;
 }
 
+.height-fill {
+    height: 100%;
+    width: auto;
+}
+
 .flex-6-4 {
     display: flex;
     width: 100%;
