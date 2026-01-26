@@ -1,0 +1,12 @@
+.width-fill {
+    width: 100%;
+    height: auto;
+}
+
+.no-drag {
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
