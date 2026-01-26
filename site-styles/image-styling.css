@@ -2,3 +2,16 @@
     width: 100%;
     height: auto;
 }
+
+.flex-6-4 {
+    display: flex;
+    gap: 5%;
+}
+
+.flex-6 {
+    flex: 6;
+}
+
+.flex-4 {
+    flex: 4;
+}
