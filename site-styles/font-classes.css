@@ -1,5 +1,18 @@
 @import url(../font-library/stylesheet.css);
 
+.suisse {
+  font-family: 'Suisse Intl Mono';
+  font-weight: normal;
+  font-style: normal;
+}
+
+.acidgr {
+  font-family: 'Aka-AcidGR-Compacta';
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 .nyght {
   font-family: "Nyght Serif", serif;
 }

@@ -1,0 +1,24 @@
+.txt-loop {
+    display: flex;
+    flex-direction: row;
+    height: 20vh;
+    gap: 5vw;
+    overflow-x: hidden;
+}
+
+.txt-loop article {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin-top: 2.5vh;
+    white-space: nowrap;
+}
+
+/* 1rem min, 1.25rem max */
+.txt-loop article .nyght-regular-italic {
+    font-size: clamp(1rem, 3vw - 0.5rem, 1.25rem);
+}
+
+.txt-loop article .acidgr {
+    font-size: clamp(1.5rem, 4vw - 0.5rem, 2rem);
+}
