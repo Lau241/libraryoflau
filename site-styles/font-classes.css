@@ -1,0 +1,65 @@
+@import url(../font-library/stylesheet.css);
+
+.nyght {
+  font-family: "Nyght Serif", serif;
+}
+
+.nyght-light {
+  font-family: "Nyght Serif", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.nyght-light-italic {
+  font-family: "Nyght Serif", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.nyght-regular {
+  font-family: "Nyght Serif", serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.nyght-regular-italic {
+  font-family: "Nyght Serif", serif;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.nyght-medium {
+  font-family: "Nyght Serif", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.nyght-medium-italic {
+  font-family: "Nyght Serif", serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.nyght-bold {
+  font-family: "Nyght Serif", serif;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.nyght-bold-italic {
+  font-family: "Nyght Serif", serif;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.nyght-dark {
+  font-family: "Nyght Serif", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.nyght-dark-italic {
+  font-family: "Nyght Serif", serif;
+  font-weight: 900;
+  font-style: italic;
+}

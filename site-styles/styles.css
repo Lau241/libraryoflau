@@ -18,3 +18,7 @@ input, button, textarea, select {
   font: inherit;
   color: inherit;
 }
+
+figure, body {
+    margin: 0;
+}

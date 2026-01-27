@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'Suisse Intl Mono';
+    src: url('MainFonts/SuisseIntlMono.woff2') format('woff2'),
+        url('MainFonts/SuisseIntlMono.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aka-AcidGR-Compacta';
+    src: url('MainFonts/Aka-AcidGR-Compacta.woff2') format('woff2'),
+        url('MainFonts/Aka-AcidGR-Compacta.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Nyght Serif Font Family */
+
+@font-face {
+    font-family: 'Nyght Serif';
+    src: url('NyghtSerif/NyghtSerif-BoldItalic.woff2') format('woff2'),
+        url('NyghtSerif/NyghtSerif-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nyght Serif';
+    src: url('NyghtSerif/NyghtSerif-Dark.woff2') format('woff2'),
+        url('NyghtSerif/NyghtSerif-Dark.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nyght Serif';
+    src: url('NyghtSerif/NyghtSerif-Bold.woff2') format('woff2'),
+        url('NyghtSerif/NyghtSerif-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nyght Serif';
+    src: url('NyghtSerif/NyghtSerif-DarkItalic.woff2') format('woff2'),
+        url('NyghtSerif/NyghtSerif-DarkItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nyght Serif';
+    src: url('NyghtSerif/NyghtSerif-LightItalic.woff2') format('woff2'),
+        url('NyghtSerif/NyghtSerif-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nyght Serif';
+    src: url('NyghtSerif/NyghtSerif-Medium.woff2') format('woff2'),
+        url('NyghtSerif/NyghtSerif-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nyght Serif';
+    src: url('NyghtSerif/NyghtSerif-Light.woff2') format('woff2'),
+        url('NyghtSerif/NyghtSerif-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nyght Serif';
+    src: url('NyghtSerif/NyghtSerif-MediumItalic.woff2') format('woff2'),
+        url('NyghtSerif/NyghtSerif-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nyght Serif';
+    src: url('NyghtSerif/NyghtSerif-RegularItalic.woff2') format('woff2'),
+        url('NyghtSerif/NyghtSerif-RegularItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nyght Serif';
+    src: url('NyghtSerif/NyghtSerif-Regular.woff2') format('woff2'),
+        url('NyghtSerif/NyghtSerif-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
