@@ -1,9 +1,9 @@
 .txt-loop {
     display: flex;
     flex-direction: row;
-    height: 20vh;
     gap: 5vw;
     overflow-x: hidden;
+    margin-bottom: 10vh;
 }
 
 .txt-loop article {
