@@ -1,0 +1,51 @@
+.quest-head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    text-align: center;
+}
+
+.quest-head h1 {
+    font-size: 8rem;
+}
+
+.quest-head p {
+    font-size: 2rem;
+}
+
+
+
+
+.line {
+  width: 100%;
+  height: 0.5px;
+  background-color: rgba(0, 0, 0);
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: #ffedfc;
+  color: #84176c;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+  color: inherit;
+}
+
+figure, body, h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
