@@ -5,9 +5,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:image" content="https://richardlau.ca/about/media/collage-art.png">
-    <meta name="description" content="Welcome to the Library of Lau, a non-commercial digital collection of Richard Lau’s creative works, inspirations, tutorials, and career resources.">
-    <title>I Have A Quest For you</title>
+    <meta property="og:image" content="https://i.postimg.cc/4dykpsty/image.png">
+    <meta name="description" content="Hey Jinny, I have a quest for you...">
+    <title>HEY, I HAVE A QUEST 4 U!</title>
     <!-- Link to CSS -->
     <link rel="stylesheet" href="../site-styles/font-classes.css">
     <link rel="stylesheet" href="quest.css">
@@ -21,24 +21,27 @@
 <main>
 
 <audio id="bgMusic" src="music/undertale001-dating-start.mp3" loop></audio>
+<audio id="selectSound" src="music/undertale-select.mp3"></audio>
 
-<div id="box1" onclick="hideBox('box1')" style="position: absolute; width: 100vw; height: 100vh; cursor: pointer;
-justify-content: center; display: flex; align-items: center; background-color: #eff8e2; z-index: 100;">
+<div id="scene1" class="select center scene active" onclick="nextScene()" style="position: absolute; cursor: pointer;
+background-color: #eff8e2; z-index: 1000;">
         <h1 class="acidgr text-shadows">CLICK TO START</h1>
 </div>
 
-<header class="quest-head" id="box2">
+<div class="quest-head scene" id="scene2" style="z-index: 999;">
     <h1 class="acidgr text-shadows">I've got a quest 4 u</h1>
     <div class="option-container">
-        <div class="option" onclick="hideBox('box2')">
+        <div class="option select" onclick="nextScene()">
             <p class="jersey tracking-in-expand">Wait Wha..?</p>
         </div>
-        <div class="option" onclick="hideBox('box2')">
+
+        <div class="option select" onclick="nextScene()">
             <p class="jersey tracking-in-expand">I'm Ready</p>
         </div>    
     </div>
-</header>
+</div>
 
+<div class="center scene" style="z-index: 998;"></div>
 
 </main>
 
