@@ -1,3 +1,4 @@
+/*
 function startScene(sceneIndex) {
   const scenes = document.querySelectorAll(".scene");
   if (sceneIndex >= scenes.length) return;
@@ -140,3 +141,4 @@ function nextScene() {
 document.addEventListener("DOMContentLoaded", () => {
   startScene(0);
 });
+*/
