@@ -3,6 +3,13 @@ animation
 */
 
 
+.fade-out {
+  opacity: 0;
+  transition: opacity 0.5s ease; /* adjust duration */
+}
+
+
+
 .tracking-in-expand {
 	-webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 	        animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
