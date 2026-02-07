@@ -6,6 +6,7 @@
     height: 100vh;
 
     text-align: center;
+    gap: 10vh;
 }
 
 .quest-head h1 {
@@ -14,7 +15,27 @@
 
 .quest-head p {
     font-size: 2rem;
+    color: #f6aca2;
 }
+
+
+.option-container {
+    display: flex;
+    gap: 5vw;
+}
+
+.option {
+    padding: 2rem 4rem;
+    border-radius: 1rem;
+    border: #f6aca2 0.25rem solid;
+
+    cursor: pointer;
+}
+
+.option:hover {
+    background-color: #00000011;
+}
+
 
 
 
@@ -30,10 +51,14 @@ html, body {
 }
 
 body {
-  background-color: #ffedfc;
-  color: #84176c;
-  line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+  font-weight: 300;
+  font-size: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  background-color: #eff8e2;
 }
 
 img, picture, video, canvas, svg {
@@ -48,4 +73,17 @@ input, button, textarea, select {
 
 figure, body, h1, h2, h3, h4, h5, h6, p {
     margin: 0;
+}
+
+@font-face {
+  font-family: "Jersey10";
+  src: url("fonts/Jersey10-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.jersey {
+    font-family: 'Jersey10';
+    font-weight: normal;
+    font-style: normal;
 }
