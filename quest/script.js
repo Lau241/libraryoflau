@@ -44,8 +44,7 @@ const storyScenes = [
       "I'm sure you're wondering what this is all about...",
       "...",
       "Keep wondering <3",
-      "ANYWAYS... LETS GET STARTED!!",
-      ""
+      "ANYWAYS... LETS GET STARTED!!"
     ], autoNext: true
   }
 ];
