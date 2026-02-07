@@ -13,6 +13,15 @@ function nextScene() {
   }
 }
 
+function goToScene(n) {
+  scenes[current].classList.remove("active");
+  current = n;
+  scenes[current].classList.add("active");
+}
+
+//<div onclick="goToScene(3)">Take Left Path</div>
+
+
 
 //music for bg
 const audio = document.getElementById("bgMusic");
@@ -33,26 +42,4 @@ select.forEach(btn => {
         selectSound.currentTime = 0; // allow replay
         selectSound.play();
     });
-});
-
-//typewriter
-
-const elements = document.querySelectorAll(".typewriter");
-const speed = 30; // ms per character
-
-elements.forEach(el => {
-    const text = el.textContent;
-    el.textContent = "";
-
-    let i = 0;
-
-    function type() {
-        if (i < text.length) {
-            el.textContent += text.charAt(i);
-            i++;
-            setTimeout(type, speed);
-        }
-    }
-
-    type();
 });
