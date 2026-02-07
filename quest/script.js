@@ -1,11 +1,17 @@
-function hideBox() {
-  const el = document.getElementById("box");
+function hideBox(id) {
+  const el = document.getElementById(id);
 
-  // Add fade class
   el.classList.add("fade-out");
 
-  // Wait for animation to finish
   setTimeout(() => {
     el.style.display = "none";
-  }, 500); // must match CSS duration
+  }, 500);
 }
+
+
+const audio = document.getElementById("bgMusic");
+
+document.addEventListener("click", () => {
+    audio.volume = 0.5;
+    audio.play();
+}, { once: true });

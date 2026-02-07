@@ -20,13 +20,20 @@
 
 <main>
 
-<header class="quest-head" id="box">
+<audio id="bgMusic" src="music/undertale001-dating-start.mp3" loop></audio>
+
+<div id="box1" onclick="hideBox('box1')" style="position: absolute; width: 100vw; height: 100vh; cursor: pointer;
+justify-content: center; display: flex; align-items: center; background-color: #eff8e2; z-index: 100;">
+        <h1 class="acidgr text-shadows">CLICK TO START</h1>
+</div>
+
+<header class="quest-head" id="box2">
     <h1 class="acidgr text-shadows">I've got a quest 4 u</h1>
     <div class="option-container">
-        <div class="option" onclick="hideBox()">
+        <div class="option" onclick="hideBox('box2')">
             <p class="jersey tracking-in-expand">Wait Wha..?</p>
         </div>
-        <div class="option" onclick="hideBox()">
+        <div class="option" onclick="hideBox('box2')">
             <p class="jersey tracking-in-expand">I'm Ready</p>
         </div>    
     </div>
