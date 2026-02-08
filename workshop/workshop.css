@@ -1,0 +1,39 @@
+.workshop-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+
+    text-align: center;
+}
+
+.workshop-header h1 {
+ font-size: 4rem;
+}
+
+.p1 {
+ font-size: 1.5rem;
+}
+
+.p2 {
+    font-size: 1.5rem;
+}
+
+
+.container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+.figma-container {
+    width: 80%;
+}
+
+.figma-file {
+    aspect-ratio: 16/12;
+    width: 100%;
+    height: 100%;
+}
