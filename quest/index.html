@@ -21,7 +21,8 @@
 <main>
 
 <audio id="track1" src="music/undertale001-dating-start.mp3" loop></audio>
-<audio id="track2" src="music/undertale-05-ruins.mp3" loop></audio>
+<audio id="track2" src="music/undertale-bonetrousel.mp3" loop></audio>
+<audio id="track3" src="music/undertale-sans.mp3" loop></audio>
 
 <audio id="selectSound" src="music/undertale-select.mp3"></audio>
 
@@ -53,6 +54,25 @@ background-color: #eff8e2; z-index: 1000;">
 
 <div class="center scene" id="scene5" style="z-index: 996;">
    <p class="typewriter jersey pgTxt"></p>
+
+    <div id="frame">
+    <div id="puzzle"></div>
+    <div id="message" class="jersey"></div>
+    <button onclick="shuffle()" class="select jersey puzzleShuffle">Shuffle</button>
+        <div style="margin-bottom: 1rem;"></div>
+        <div class="btn-container-right">
+            <button onclick="nextScene()" class="select jersey onward-btn">I'm Done!</button>
+            <p class="jersey">[Make sure to take note of the key! NYEH! HEH HEH!]</p>
+        </div>
+    </div>
+</div>
+
+<div class="center scene" id="scene6" style="z-index: 995;">
+    <p class="typewriter jersey pgTxt"></p>
+</div>
+
+<div class="center scene" id="scene7" style="z-index: 994;">
+    
 </div>
 
 </main>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:image" content="https://i.postimg.cc/4dykpsty/image.png">
+    <meta name="description" content="Hey Jinny, I have a quest for you!">
+    <title>HEY, I HAVE A QUEST 4 U!</title>
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="../site-styles/font-classes.css">
+    <link rel="stylesheet" href="quest.css">
+    <link rel="stylesheet" href="animation.css">
+</head>
+
+<!-- Designed and Coded by Richard Lau -->
+
+<body>
+
+<main>
+
+<audio id="track1" src="music/undertale-intro.mp3" loop></audio>
+<audio id="track2" src="music/undertale-asgore.mp3" loop></audio>
+<audio id="track3" src="music/undertale-sans.mp3" loop></audio>
+<audio id="track4" src="music/undertale-goodbye.mp3" loop></audio>
+
+<audio id="selectSound" src="music/undertale-select.mp3"></audio>
+
+<div id="scene1" class="select center scene active" onclick="nextScene()" style="position: absolute; cursor: pointer;
+background-color: #eff8e2; z-index: 1000;">
+        <h1 class="acidgr text-shadows">CONTINUE...</h1>
+</div>
+
+<div class="center scene" id="scene2" style="z-index: 998;">
+   <p class="typewriter jersey pgTxt"></p>
+</div>
+
+<div class="center scene" id="scene3" style="z-index: 997; display: flex; flex-direction: column; gap: 1rem;">
+    <p class="typewriter jersey pgTxt"></p>
+
+    <div id="game-wrapper">
+    <div id="battle-box">
+        <div id="heart"></div>
+    </div>
+    <div id="ui" class="jersey">
+        HP: <span id="hp">25</span>
+    </div>
+    </div>
+</div>
+
+<div class="center scene" id="scene4" style="z-index: 996;">
+   <p class="typewriter jersey pgTxt"></p>
+</div>
+
+<div class="center scene" id="scene5" style="z-index: 995;">
+    <div class="pwrd-container jersey">
+        <label for="passwordInput">Enter Code:</label>
+        <input type="text" id="passwordInput" placeholder="You didn't forget, right?">
+        <button id="submitBtn">Submit</button>
+    </div>
+</div>
+
+<div class="center scene" id="scene6" style="z-index: 994;">
+    <p class="typewriter jersey pgTxt"></p>
+</div>
+
+<div class="center scene final" id="scene7" style="z-index: 993;">
+    <p class="typewriter jersey pgTxt"></p>
+
+    <div class="option-container">
+        <h1 class="acidgr text-shadows">LET ME BUY YOU DINNER?</h1>
+
+        <div class="options-row">
+            <div class="option-container-a">
+                <div class="option select">
+                    <p class="jersey tracking-in-expand txt-normal">No way.</p>
+                </div>
+                <p class="jersey tracking-in=expand txt-caption">This will send you back to the start.</p>
+            </div>
+            
+            <div class="option-container-a">
+                <div class="option select" onclick="nextScene()">
+                    <p class="jersey tracking-in-expand txt-normal">Yes.</p>
+                </div>  
+                <p class="jersey tracking-in=expand txt-caption">Hint: Choose this.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="center scene" id="scene8" style="z-index: 993;">
+    <p class="typewriter jersey pgTxt"></p>
+</div>
+
+</main>
+
+<script src="script.js" defer></script>
+<script src="typewriter.js" defer></script>
+</body>
