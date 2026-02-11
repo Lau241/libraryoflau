@@ -154,7 +154,7 @@ function startScene(sceneIndex) {
   }
 
   if (sceneIndex === 6) {
-    window.location.href = "https://libraryoflau/quest-path/";
+    window.location.href = "https://libraryoflau.ca/quest-path/";
   }
 }
 
