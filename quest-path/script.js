@@ -45,7 +45,6 @@ const storyScenes = [
       "...",
       "Watch out, don't die.",
       "...",
-      /*
       "Coding: 5% Complete",
       "Coding: 7% Complete",
       "Some of these bullets target where you last were.",
@@ -94,7 +93,7 @@ const storyScenes = [
       "Coding: 99.99% Complete",
       "Figured it out!",
       "Coding: 100% Complete",
-      "ALRIGHT LOADING THE NEXT PART!!",*/
+      "ALRIGHT LOADING THE NEXT PART!!",
       "WELL DONE YOU MADE IT!"
     ], autoNext: true
   }, 
