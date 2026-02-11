@@ -260,7 +260,7 @@ let hp = 25;
 
 let heartX = 192;
 let heartY = 220;
-const heartSpeed = 4;
+const heartSpeed = 2;
 
 const keys = {};
 const bullets = [];
