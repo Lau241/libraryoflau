@@ -256,7 +256,7 @@ const box = document.getElementById("battle-box");
 const heart = document.getElementById("heart");
 const hpDisplay = document.getElementById("hp");
 
-let hp = 25;
+let hp = 30;
 
 let heartX = 192;
 let heartY = 220;
