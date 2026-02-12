@@ -43,7 +43,7 @@ const storyScenes = [
   },
   { lines: [
       "...",
-      "Watch out, don't die.",
+     /* "Watch out, don't die.",
       "...",
       "Coding: 5% Complete",
       "Coding: 7% Complete",
@@ -93,7 +93,7 @@ const storyScenes = [
       "Coding: 99.99% Complete",
       "Figured it out!",
       "Coding: 100% Complete",
-      "ALRIGHT LOADING THE NEXT PART!!",
+      "ALRIGHT LOADING THE NEXT PART!!",*/
       "WELL DONE YOU MADE IT!"
     ], autoNext: true
   }, 
@@ -116,8 +116,9 @@ const storyScenes = [
     "Thanks for playing!",
     "That's all!",
     "...",
-    "I guess there's one last thing I need to ask.",
-    "and it's VERY VERY VERY IMPORTANT you say YES.",
+    "I guess there's one last thing.",
+    "It's super important that you say yes",
+    "like it's VERY VERY VERY IMPORTANT you say YES.",
     "Because if you don't I'm sending you back to the start.",
     "...",
     "Let me buy you dinner?"
