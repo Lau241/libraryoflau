@@ -114,7 +114,6 @@ const storyScenes = [
     "Even though there was absolutely no story to it at all.",
     "...",
     "Thanks for playing!",
-    "...",
     "That's all!",
     "...",
     "I guess there's one last thing I need to ask.",
@@ -130,7 +129,9 @@ const storyScenes = [
   },
   { lines: [
     ":]",
-    "Good choice."
+    "I knew you'd say yes.",
+    "...",
+    "Good night <3"
   ], autoNext: false  
   }
 ];
