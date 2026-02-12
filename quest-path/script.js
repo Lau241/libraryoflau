@@ -130,7 +130,7 @@ const storyScenes = [
   },
   { lines: [
     ":]",
-    "I knew you'd eventually yes.",
+    "I knew you'd eventually say yes.",
     "...",
     "Good night <3"
   ], autoNext: false  
