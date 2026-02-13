@@ -43,7 +43,7 @@ const storyScenes = [
   },
   { lines: [
       "...",
-      "Watch out, don't die.",
+     "Watch out, don't die.",
       "...",
       "Coding: 5% Complete",
       "Coding: 7% Complete",
@@ -110,15 +110,15 @@ const storyScenes = [
   { lines: [
     "Well Jinny, you made it to the end of the quest.",
     "I didn't have much time to do anything else.",
-    "Thanks for joining me on this quest.",
+    "Thanks for joining me.",
     "Even though there was absolutely no story to it at all.",
     "...",
     "Thanks for playing!",
-    "...",
     "That's all!",
     "...",
-    "I guess there's one last thing I need to ask.",
-    "and it's VERY VERY VERY IMPORTANT you say YES.",
+    "I guess there's one last thing...",
+    "It's super important that you say yes to it.",
+    "like it's SUPER important you say YES.",
     "Because if you don't I'm sending you back to the start.",
     "...",
     "Let me buy you dinner?"
@@ -130,7 +130,9 @@ const storyScenes = [
   },
   { lines: [
     ":]",
-    "Good choice."
+    "I knew you'd eventually say yes.",
+    "...",
+    "Good night <3"
   ], autoNext: false  
   }
 ];
